@@ -1,0 +1,23 @@
+@{
+    Layout = "_Layout";
+}
+
+@model TaskManager.Models.TaskItem
+
+@{
+    ViewData["Title"] = "Task Details";
+}
+
+<h1>Task Details</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Title</dt>
+    <dd class="col-sm-10">@Model.Title</dd>
+
+    <dt class="col-sm-2">Is Done</dt>
+    <dd class="col-sm-10">@Model.IsDone ? "✔️ Completed" : "❌ Not Completed"</dd>
+</dl>
+
+<a href="/Tasks/Edit/@Model.Id" class="btn btn-primary">Edit</a>
+<a href="/Tasks/Delete/@Model.Id" class="btn btn-danger">Delete</a>
+<a href="/Tasks" class="btn btn-secondary">Back to List</a>
