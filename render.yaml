@@ -1,12 +1,7 @@
 services:
   - type: web
     name: taskmanager
-    runtime: dotnet
+    env: docker
     repo: https://github.com/stefaanpetrov/TaskManager
     branch: main
-    buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/TaskManager.dll
-    envVars:
-      - key: ASPNETCORE_ENVIRONMENT
-        value: Production
-
+    dockerfilePath: Dockerfile
