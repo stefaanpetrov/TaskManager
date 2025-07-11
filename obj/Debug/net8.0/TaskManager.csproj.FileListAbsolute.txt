@@ -127,3 +127,4 @@
 /Users/stefanpetrov/TaskManager/obj/Debug/net8.0/TaskManager.pdb
 /Users/stefanpetrov/TaskManager/obj/Debug/net8.0/TaskManager.genruntimeconfig.cache
 /Users/stefanpetrov/TaskManager/obj/Debug/net8.0/ref/TaskManager.dll
+/Users/stefanpetrov/TaskManager/obj/Debug/net8.0/TaskManager.sourcelink.json
