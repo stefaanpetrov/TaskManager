@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: taskmanager
-    env: docker
-    repo: https://github.com/stefaanpetrov/TaskManager
-    branch: main
-    dockerfilePath: Dockerfile
